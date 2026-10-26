@@ -19,5 +19,5 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci --no-fund
-      - run: npm audit --audit-level=high
       - run: npm run production
+      - run: npm audit --audit-level=high
